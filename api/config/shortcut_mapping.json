@@ -1,0 +1,40 @@
+{"mappings": {
+    "properties": {
+        "description": {
+        "type": "text",
+        "fields": {
+            "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+            }
+        }
+        },
+        "ref_url": {
+        "type": "text",
+        "fields": {
+            "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+            }
+        }
+        },
+        "short_cut": {
+        "type": "text",
+        "fields": {
+            "raw": {
+            "type": "keyword"
+            }
+        }
+        },
+        "usage": {
+        "type": "text",
+        "fields": {
+            "keyword": {
+            "type": "keyword",
+            "ignore_above": 256
+            }
+        }
+        }
+    }
+    }
+}
